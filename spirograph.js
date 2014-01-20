@@ -20,6 +20,8 @@ function main() {
         var delta = 0;
 
         if (!e) e = window.e;
+        
+        e.preventDefault();
 
         //normalize the delta
         if (e.wheelDelta) { //means its IE or Opera
